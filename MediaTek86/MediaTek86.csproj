@@ -14,4 +14,13 @@
     <Folder Include="dal\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="view\ModifyAbsence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view\ModifyPersonnel .cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
 </Project>
