@@ -95,6 +95,7 @@
             addAbsence_button.TabIndex = 12;
             addAbsence_button.Text = "Ajouter une absence";
             addAbsence_button.UseVisualStyleBackColor = true;
+            addAbsence_button.Click += new System.EventHandler(this.addAbsence_button_Click);
             // 
             // AddAbsence
             // 

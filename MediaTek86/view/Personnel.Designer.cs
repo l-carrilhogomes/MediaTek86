@@ -40,6 +40,9 @@
             // personnel_grid
             // 
             personnel_grid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            personnel_grid.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            personnel_grid.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            personnel_grid.MultiSelect = false;
             personnel_grid.Location = new Point(12, 12);
             personnel_grid.Name = "personnel_grid";
             personnel_grid.RowHeadersWidth = 51;
@@ -54,6 +57,7 @@
             addpersonnel_button.TabIndex = 1;
             addpersonnel_button.Text = "Ajouter un personnel";
             addpersonnel_button.UseVisualStyleBackColor = true;
+            addpersonnel_button.Click += new System.EventHandler(this.addpersonnel_button_Click);
             // 
             // deletepersonnel_button
             // 
@@ -63,6 +67,7 @@
             deletepersonnel_button.TabIndex = 2;
             deletepersonnel_button.Text = "Supprimer un personnel";
             deletepersonnel_button.UseVisualStyleBackColor = true;
+            deletepersonnel_button.Click += new System.EventHandler(this.deletepersonnel_button_Click);
             // 
             // modifypersonnel_button
             // 
@@ -72,6 +77,7 @@
             modifypersonnel_button.TabIndex = 3;
             modifypersonnel_button.Text = "Modifier un personnel";
             modifypersonnel_button.UseVisualStyleBackColor = true;
+            modifypersonnel_button.Click += new System.EventHandler(this.modifypersonnel_button_Click);
             // 
             // gestionabsences_button
             // 
@@ -81,6 +87,7 @@
             gestionabsences_button.TabIndex = 4;
             gestionabsences_button.Text = "Gestion des absences";
             gestionabsences_button.UseVisualStyleBackColor = true;
+            gestionabsences_button.Click += new System.EventHandler(this.gestionabsences_button_Click);
             // 
             // disconnect_button
             // 
@@ -90,6 +97,7 @@
             disconnect_button.TabIndex = 5;
             disconnect_button.Text = "Déconnexion";
             disconnect_button.UseVisualStyleBackColor = true;
+            disconnect_button.Click += new System.EventHandler(this.disconnect_button_Click);
             // 
             // Personnel
             // 

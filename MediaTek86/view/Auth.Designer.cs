@@ -28,65 +28,66 @@
         /// </summary>
         private void InitializeComponent()
         {
-            username_label = new Label();
-            username_textbox = new TextBox();
-            password_label = new Label();
-            password_textbox = new MaskedTextBox();
-            connect_button = new Button();
+            usernameLabel = new Label();
+            usernameTextbox = new TextBox();
+            passwordLabel = new Label();
+            passwordTextbox = new MaskedTextBox();
+            connectButton = new Button();
             SuspendLayout();
             // 
-            // username_label
+            // usernameLabel
             // 
-            username_label.AutoSize = true;
-            username_label.Location = new Point(12, 27);
-            username_label.Name = "username_label";
-            username_label.Size = new Size(123, 20);
-            username_label.TabIndex = 0;
-            username_label.Text = "Nom d'utilisateur";
+            usernameLabel.AutoSize = true;
+            usernameLabel.Location = new Point(12, 27);
+            usernameLabel.Name = "usernameLabel";
+            usernameLabel.Size = new Size(123, 20);
+            usernameLabel.TabIndex = 0;
+            usernameLabel.Text = "Nom d'utilisateur";
             // 
-            // username_textbox
+            // usernameTextbox
             // 
-            username_textbox.Location = new Point(12, 50);
-            username_textbox.Name = "username_textbox";
-            username_textbox.Size = new Size(235, 27);
-            username_textbox.TabIndex = 1;
+            usernameTextbox.Location = new Point(12, 50);
+            usernameTextbox.Name = "usernameTextbox";
+            usernameTextbox.Size = new Size(235, 27);
+            usernameTextbox.TabIndex = 1;
             // 
-            // password_label
+            // passwordLabel
             // 
-            password_label.AutoSize = true;
-            password_label.Location = new Point(12, 105);
-            password_label.Name = "password_label";
-            password_label.Size = new Size(98, 20);
-            password_label.TabIndex = 3;
-            password_label.Text = "Mot de passe";
+            passwordLabel.AutoSize = true;
+            passwordLabel.Location = new Point(12, 105);
+            passwordLabel.Name = "passwordLabel";
+            passwordLabel.Size = new Size(98, 20);
+            passwordLabel.TabIndex = 3;
+            passwordLabel.Text = "Mot de passe";
             // 
-            // password_textbox
+            // passwordTextbox
             // 
-            password_textbox.Location = new Point(12, 128);
-            password_textbox.Name = "password_textbox";
-            password_textbox.PasswordChar = '*';
-            password_textbox.Size = new Size(235, 27);
-            password_textbox.TabIndex = 4;
+            passwordTextbox.Location = new Point(12, 128);
+            passwordTextbox.Name = "passwordTextbox";
+            passwordTextbox.PasswordChar = '*';
+            passwordTextbox.Size = new Size(235, 27);
+            passwordTextbox.TabIndex = 4;
             // 
-            // connect_button
+            // connectButton
             // 
-            connect_button.Location = new Point(12, 183);
-            connect_button.Name = "connect_button";
-            connect_button.Size = new Size(235, 29);
-            connect_button.TabIndex = 5;
-            connect_button.Text = "Se connecter";
-            connect_button.UseVisualStyleBackColor = true;
+            connectButton.Location = new Point(12, 183);
+            connectButton.Name = "connectButton";
+            connectButton.Size = new Size(235, 29);
+            connectButton.TabIndex = 5;
+            connectButton.Text = "Se connecter";
+            connectButton.UseVisualStyleBackColor = true;
+            connectButton.Click += new System.EventHandler(this.connectButton_Click);
             // 
             // Auth
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(connect_button);
-            Controls.Add(password_textbox);
-            Controls.Add(password_label);
-            Controls.Add(username_textbox);
-            Controls.Add(username_label);
+            Controls.Add(connectButton);
+            Controls.Add(passwordTextbox);
+            Controls.Add(passwordLabel);
+            Controls.Add(usernameTextbox);
+            Controls.Add(usernameLabel);
             Name = "Auth";
             Text = "Auth";
             ResumeLayout(false);
@@ -95,10 +96,10 @@
 
         #endregion
 
-        private Label username_label;
-        private TextBox username_textbox;
-        private Label password_label;
-        private MaskedTextBox password_textbox;
-        private Button connect_button;
+        private Label usernameLabel;
+        private TextBox usernameTextbox;
+        private Label passwordLabel;
+        private MaskedTextBox passwordTextbox;
+        private Button connectButton;
     }
 }

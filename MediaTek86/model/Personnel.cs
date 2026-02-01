@@ -19,7 +19,7 @@ namespace MediaTek86.model
         /// <param name="idService"></param>
 
 
-        public Personnel(int idPersonnel, string nom, string prenom, int tel, string mail, int idService)
+        public Personnel(int idPersonnel, string nom, string prenom, string tel, string mail, int idService)
         {
             this.IdPersonnel = idPersonnel;
             this.Nom = nom;
@@ -32,7 +32,7 @@ namespace MediaTek86.model
         public int IdPersonnel { get; }
         public string Nom { get; set; }
         public string Prenom { get; set; }
-        public int Tel { get; set; }
+        public string Tel { get; set; }
         public string Mail { get; set; }
         public int IdService { get; set; }
 

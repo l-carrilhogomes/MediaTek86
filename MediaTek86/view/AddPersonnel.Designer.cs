@@ -32,9 +32,9 @@
             lastname_textbox = new TextBox();
             firstname_textbox = new TextBox();
             firstname_label = new Label();
-            textBox1 = new TextBox();
+            tel_textbox = new TextBox();
             tel_label = new Label();
-            textBox2 = new TextBox();
+            mail_textbox = new TextBox();
             mail_label = new Label();
             service_dropdown = new ComboBox();
             service_label = new Label();
@@ -73,12 +73,12 @@
             firstname_label.TabIndex = 3;
             firstname_label.Text = "Prénom";
             // 
-            // textBox1
+            // tel_textbox
             // 
-            textBox1.Location = new Point(12, 159);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(235, 27);
-            textBox1.TabIndex = 6;
+            tel_textbox.Location = new Point(12, 159);
+            tel_textbox.Name = "tel_textbox";
+            tel_textbox.Size = new Size(235, 27);
+            tel_textbox.TabIndex = 6;
             // 
             // tel_label
             // 
@@ -89,12 +89,12 @@
             tel_label.TabIndex = 5;
             tel_label.Text = "Téléphone";
             // 
-            // textBox2
+            // mail_textbox
             // 
-            textBox2.Location = new Point(12, 223);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(235, 27);
-            textBox2.TabIndex = 8;
+            mail_textbox.Location = new Point(12, 223);
+            mail_textbox.Name = "mail_textbox";
+            mail_textbox.Size = new Size(235, 27);
+            mail_textbox.TabIndex = 8;
             // 
             // mail_label
             // 
@@ -131,6 +131,7 @@
             addPersonnel_button.TabIndex = 11;
             addPersonnel_button.Text = "Ajouter un personnel";
             addPersonnel_button.UseVisualStyleBackColor = true;
+            addPersonnel_button.Click += new System.EventHandler(this.addPersonnel_button_Click);
             // 
             // AddPersonnel
             // 
@@ -140,9 +141,9 @@
             Controls.Add(addPersonnel_button);
             Controls.Add(service_label);
             Controls.Add(service_dropdown);
-            Controls.Add(textBox2);
+            Controls.Add(mail_textbox);
             Controls.Add(mail_label);
-            Controls.Add(textBox1);
+            Controls.Add(tel_textbox);
             Controls.Add(tel_label);
             Controls.Add(firstname_textbox);
             Controls.Add(firstname_label);
@@ -160,9 +161,9 @@
         private TextBox lastname_textbox;
         private TextBox firstname_textbox;
         private Label firstname_label;
-        private TextBox textBox1;
+        private TextBox tel_textbox;
         private Label tel_label;
-        private TextBox textBox2;
+        private TextBox mail_textbox;
         private Label mail_label;
         private ComboBox service_dropdown;
         private Label service_label;

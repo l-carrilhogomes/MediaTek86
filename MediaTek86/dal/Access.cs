@@ -1,9 +1,10 @@
 ﻿using MediaTek86.bddmanager;
 using System;
 using Serilog;
+using Serilog;
 using System.Configuration;
 
-namespace habilitations2024.dal
+namespace MediaTek86.dal
 {
     /// <summary>
     /// Singleton : classe d'accès à BddManager
@@ -37,11 +38,17 @@ namespace habilitations2024.dal
                     .WriteTo.Console()
                     .WriteTo.File("logs/log.txt")
                     .CreateLogger();
+                Log.Logger = new LoggerConfiguration()
+                    .MinimumLevel.Verbose()
+                    .WriteTo.Console()
+                    .WriteTo.File("logs/log.txt")
+                    .CreateLogger();
                 connectionString = GetConnectionStringByName(connectionName);
                 Manager = BddManager.GetInstance(connectionString);
             }
             catch (Exception e)
             {
+                Log.Fatal("Access.Access catch connectionString={0} erreur={1}", connectionString, e.Message);
                 Log.Fatal("Access.Access catch connectionString={0} erreur={1}", connectionString, e.Message);
                 Environment.Exit(0);
             }
