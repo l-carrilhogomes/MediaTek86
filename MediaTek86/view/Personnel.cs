@@ -36,6 +36,7 @@ namespace MediaTek86.view
             dataTable.Columns.Add("Téléphone", typeof(string));
             dataTable.Columns.Add("Email", typeof(string));
             dataTable.Columns.Add("Service", typeof(string));
+            dataTable.Columns.Add("IdService", typeof(int)); // Colonne cachée pour l'ID du service
 
             foreach (model.Personnel personnel in personnels)
             {
@@ -46,11 +47,18 @@ namespace MediaTek86.view
                     personnel.Prenom,
                     personnel.Tel,
                     personnel.Mail,
-                    serviceName
+                    serviceName,
+                    personnel.IdService
                 );
             }
 
             personnel_grid.DataSource = dataTable;
+            
+            // Masquer la colonne IdService (utilisée uniquement pour la modification)
+            if (personnel_grid.Columns["IdService"] != null)
+            {
+                personnel_grid.Columns["IdService"].Visible = false;
+            }
         }
 
         /// <summary>
@@ -100,7 +108,7 @@ namespace MediaTek86.view
                 (string)selectedRow.Cells["Prénom"].Value,
                 (string)selectedRow.Cells["Téléphone"].Value,
                 (string)selectedRow.Cells["Email"].Value,
-                (int)selectedRow.Cells["ID Service"].Value
+                (int)selectedRow.Cells["IdService"].Value
             );
 
             // Ouvrir le formulaire de modification

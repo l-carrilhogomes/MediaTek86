@@ -39,7 +39,17 @@ namespace MediaTek86.view
         {
             startingdate_datepicker.Value = dateDebut;
             endingdate_datepicker.Value = dateFin;
-            motif_dropdown.SelectedValue = idMotif;
+            
+            // Sélectionner le motif correspondant à l'ID
+            for (int i = 0; i < motif_dropdown.Items.Count; i++)
+            {
+                Motif motif = (Motif)motif_dropdown.Items[i];
+                if (motif.IdModif == idMotif)
+                {
+                    motif_dropdown.SelectedIndex = i;
+                    break;
+                }
+            }
         }
 
         private void modifyAbsence_button_Click(object sender, EventArgs e)
