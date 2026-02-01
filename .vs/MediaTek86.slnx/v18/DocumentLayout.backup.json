@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\FlowUP\\Desktop\\MediaTek86\\MediaTek86\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DC24ED7E-18DB-B6BF-16DB-55C91A6B0CBE}|MediaTek86\\MediaTek86.csproj|c:\\users\\flowup\\desktop\\mediatek86\\mediatek86\\mediatek86\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC24ED7E-18DB-B6BF-16DB-55C91A6B0CBE}|MediaTek86\\MediaTek86.csproj|solutionrelative:mediatek86\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC24ED7E-18DB-B6BF-16DB-55C91A6B0CBE}|MediaTek86\\MediaTek86.csproj|c:\\users\\flowup\\desktop\\mediatek86\\mediatek86\\mediatek86\\view\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC24ED7E-18DB-B6BF-16DB-55C91A6B0CBE}|MediaTek86\\MediaTek86.csproj|solutionrelative:mediatek86\\view\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC24ED7E-18DB-B6BF-16DB-55C91A6B0CBE}|MediaTek86\\MediaTek86.csproj|c:\\users\\flowup\\desktop\\mediatek86\\mediatek86\\mediatek86\\view\\auth.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC24ED7E-18DB-B6BF-16DB-55C91A6B0CBE}|MediaTek86\\MediaTek86.csproj|solutionrelative:mediatek86\\view\\auth.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DC24ED7E-18DB-B6BF-16DB-55C91A6B0CBE}|MediaTek86\\MediaTek86.csproj|C:\\Users\\FlowUP\\Desktop\\MediaTek86\\MediaTek86\\mediatek86\\view\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DC24ED7E-18DB-B6BF-16DB-55C91A6B0CBE}|MediaTek86\\MediaTek86.csproj|solutionrelative:mediatek86\\view\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -15,24 +27,12 @@
       "RelativeMoniker": "D:0:0:{DC24ED7E-18DB-B6BF-16DB-55C91A6B0CBE}|MediaTek86\\MediaTek86.csproj|solutionrelative:mediatek86\\view\\personnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC24ED7E-18DB-B6BF-16DB-55C91A6B0CBE}|MediaTek86\\MediaTek86.csproj|c:\\users\\flowup\\desktop\\mediatek86\\mediatek86\\mediatek86\\view\\personnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DC24ED7E-18DB-B6BF-16DB-55C91A6B0CBE}|MediaTek86\\MediaTek86.csproj|C:\\Users\\FlowUP\\Desktop\\MediaTek86\\MediaTek86\\mediatek86\\view\\personnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DC24ED7E-18DB-B6BF-16DB-55C91A6B0CBE}|MediaTek86\\MediaTek86.csproj|solutionrelative:mediatek86\\view\\personnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC24ED7E-18DB-B6BF-16DB-55C91A6B0CBE}|MediaTek86\\MediaTek86.csproj|c:\\users\\flowup\\desktop\\mediatek86\\mediatek86\\mediatek86\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC24ED7E-18DB-B6BF-16DB-55C91A6B0CBE}|MediaTek86\\MediaTek86.csproj|solutionrelative:mediatek86\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC24ED7E-18DB-B6BF-16DB-55C91A6B0CBE}|MediaTek86\\MediaTek86.csproj|c:\\users\\flowup\\desktop\\mediatek86\\mediatek86\\mediatek86\\view\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC24ED7E-18DB-B6BF-16DB-55C91A6B0CBE}|MediaTek86\\MediaTek86.csproj|solutionrelative:mediatek86\\view\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC24ED7E-18DB-B6BF-16DB-55C91A6B0CBE}|MediaTek86\\MediaTek86.csproj|c:\\users\\flowup\\desktop\\mediatek86\\mediatek86\\mediatek86\\view\\auth.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
       "RelativeMoniker": "D:0:0:{DC24ED7E-18DB-B6BF-16DB-55C91A6B0CBE}|MediaTek86\\MediaTek86.csproj|solutionrelative:mediatek86\\view\\auth.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC24ED7E-18DB-B6BF-16DB-55C91A6B0CBE}|MediaTek86\\MediaTek86.csproj|c:\\users\\flowup\\desktop\\mediatek86\\mediatek86\\mediatek86\\view\\auth.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC24ED7E-18DB-B6BF-16DB-55C91A6B0CBE}|MediaTek86\\MediaTek86.csproj|solutionrelative:mediatek86\\view\\auth.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A19FE67A-D711-4F94-AF69-8AFEC534A6E3}|MediaTek86\\MediaTek86.csproj|C:\\Users\\FlowUP\\Desktop\\MediaTek86\\MediaTek86\\mediatek86\\view\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -46,11 +46,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\FlowUP\\Desktop\\MediaTek86\\MediaTek86\\MediaTek86\\Program.cs",
               "RelativeDocumentMoniker": "MediaTek86\\Program.cs",
@@ -58,12 +62,11 @@
               "RelativeToolTip": "MediaTek86\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T20:57:44.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T20:57:44.545Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Personnel.cs",
               "DocumentMoniker": "C:\\Users\\FlowUP\\Desktop\\MediaTek86\\MediaTek86\\MediaTek86\\view\\Personnel.cs",
               "RelativeDocumentMoniker": "MediaTek86\\view\\Personnel.cs",
@@ -76,57 +79,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Personnel.cs [Conception]",
               "DocumentMoniker": "C:\\Users\\FlowUP\\Desktop\\MediaTek86\\MediaTek86\\MediaTek86\\view\\Personnel.cs",
               "RelativeDocumentMoniker": "MediaTek86\\view\\Personnel.cs",
               "ToolTip": "C:\\Users\\FlowUP\\Desktop\\MediaTek86\\MediaTek86\\MediaTek86\\view\\Personnel.cs [Conception]",
               "RelativeToolTip": "MediaTek86\\view\\Personnel.cs [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T20:53:08.825Z",
-              "EditorCaption": " [Conception]"
+              "WhenOpened": "2026-02-01T20:53:08.825Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\FlowUP\\Desktop\\MediaTek86\\MediaTek86\\MediaTek86\\controller\\AuthController.cs",
               "RelativeDocumentMoniker": "MediaTek86\\controller\\AuthController.cs",
               "ToolTip": "C:\\Users\\FlowUP\\Desktop\\MediaTek86\\MediaTek86\\MediaTek86\\controller\\AuthController.cs",
               "RelativeToolTip": "MediaTek86\\controller\\AuthController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwB0AAABGAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB0AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-01T20:52:28.129Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Auth.cs",
               "DocumentMoniker": "C:\\Users\\FlowUP\\Desktop\\MediaTek86\\MediaTek86\\MediaTek86\\view\\Auth.cs",
               "RelativeDocumentMoniker": "MediaTek86\\view\\Auth.cs",
               "ToolTip": "C:\\Users\\FlowUP\\Desktop\\MediaTek86\\MediaTek86\\MediaTek86\\view\\Auth.cs",
               "RelativeToolTip": "MediaTek86\\view\\Auth.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwAwAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-01T14:34:48.404Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Auth.resx",
               "DocumentMoniker": "C:\\Users\\FlowUP\\Desktop\\MediaTek86\\MediaTek86\\MediaTek86\\view\\Auth.resx",
               "RelativeDocumentMoniker": "MediaTek86\\view\\Auth.resx",
               "ToolTip": "C:\\Users\\FlowUP\\Desktop\\MediaTek86\\MediaTek86\\MediaTek86\\view\\Auth.resx",
               "RelativeToolTip": "MediaTek86\\view\\Auth.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-02-01T14:34:46.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T14:34:46.806Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Auth.Designer.cs",
               "DocumentMoniker": "C:\\Users\\FlowUP\\Desktop\\MediaTek86\\MediaTek86\\MediaTek86\\view\\Auth.Designer.cs",
               "RelativeDocumentMoniker": "MediaTek86\\view\\Auth.Designer.cs",
@@ -134,20 +135,18 @@
               "RelativeToolTip": "MediaTek86\\view\\Auth.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T14:34:45.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T14:34:45.712Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Auth.cs [Conception]",
               "DocumentMoniker": "C:\\Users\\FlowUP\\Desktop\\MediaTek86\\MediaTek86\\MediaTek86\\view\\Auth.cs",
               "RelativeDocumentMoniker": "MediaTek86\\view\\Auth.cs",
               "ToolTip": "C:\\Users\\FlowUP\\Desktop\\MediaTek86\\MediaTek86\\MediaTek86\\view\\Auth.cs [Conception]",
               "RelativeToolTip": "MediaTek86\\view\\Auth.cs [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T14:34:43.627Z",
-              "EditorCaption": " [Conception]"
+              "WhenOpened": "2026-02-01T14:34:43.627Z"
             },
             {
               "$type": "Document",
